@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<title>Favorite Foods Diet</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif; }
+.w3-row-padding img {margin-bottom: 12px; }
+.bgimg {
+  min-height: 100%;
+  background: url('/Users/mgm/Desktop/Fav/WebImages/sidebar.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg" />
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Favorite Foods Diet</b></h1>
+    <p>Re-balancing gut biome</p>
+    <img src="/Users/mgm/Desktop/Fav/WebImages/recipe6.png" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="/Users/mgm/Desktop/Fav/WebImages/recipe6.png" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top" id="button" onclick='openUrl()'>
+      <i class="fa fa-download"></i> Click Here To Visit The Official Site
+    </button>
+  </header>
+
+  <!-- Recipe Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">Recipes</h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="/Users/mgm/Desktop/Fav/WebImages/recipe1.png" style="width:100%">
+        <img src="/Users/mgm/Desktop/Fav/WebImages/recipe6.png" style="width:100%">
+        <img src="/Users/mgm/Desktop/Fav/WebImages/recipe3.png" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="/Users/mgm/Desktop/Fav/WebImages/recipe4.png" style="width:100%">
+        <img src="/Users/mgm/Desktop/Fav/WebImages/recipe2.png" style="width:100%">
+        <img src="/Users/mgm/Desktop/Fav/WebImages/recipe7.png" style="width:100%">
+
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p><b>The Favorite Food Diet</b> is a brand new and revolutionary <b>weight loss program </b>that puts a complete end to all the weight loss industry rumors and allows one to eat the foods they love while also meeting health and fitness targets.
+
+The whole system is aimed at tackling the main cause behind obesity, rather than dancing around it with prescription drugs, harmful contraptions, costly surgeries and anything else out there on the market.
+
+So, for anyone interested in joining over 27,000 people who have experienced significant weight loss in a healthy way and while enjoying all the foods they usually eat, here’s what one can achieve with The Favorite Food Diet.
+    </p>
+    <h3 class="w3-padding-16">Get it NOW</h3>
+    <img src="/Users/mgm/Desktop/Fav/WebImages/bodi.png" style="width:100%" onclick='openUrl()'>
+    <br>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge"> 27,000+</span><br>
+        People Succeeded
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">30-day</span><br>
+        Exercise Challenge
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">3</span><br>
+        Free Bonuses
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">50+</span><br>
+        Unique Recipes
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section" onclick="openUrl()">
+      <i class="fa fa-download"></i> Learn More
+    </button>
+
+
+  <!-- End About Section -->
+  </div>
+
+
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+function openUrl() {
+  let win = window.open("https://www.favefooddiet.com/lp/?hop=niche286", '_blank');
+  win.focus();
+}
+
+</script>
+
+</body>
+</html>
